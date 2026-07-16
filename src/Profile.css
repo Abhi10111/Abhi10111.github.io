@@ -1,0 +1,54 @@
+/* ─── Profile view — full-viewport centred container ──────────── */
+
+.profile-view {
+  position: relative;
+  z-index: 10;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5vh 2rem;
+}
+
+/* ─── Two-column grid ─────────────────────────────────────────── */
+.profile-grid {
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+  gap: 4rem;
+  align-items: center;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* Left col takes remaining space */
+.profile-left {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.profile-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* ─── Responsive ─────────────────────────────────────────────── */
+@media (max-width: 900px) {
+  .profile-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .profile-left,
+  .profile-right {
+    justify-content: center;
+  }
+
+  .profile-right {
+    width: 100%;
+    max-width: 560px;
+    margin: 0 auto;
+  }
+}
