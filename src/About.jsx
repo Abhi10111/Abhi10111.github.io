@@ -3,42 +3,42 @@ import { Zap, Shield, Sparkles, Briefcase } from 'lucide-react';
 import './About.css';
 
 const skills = [
-    { label: 'C++ / Systems Programming',     level: 92 },
-    { label: 'Multithreading & Concurrency',  level: 86 },
-    { label: 'React / TypeScript',            level: 87 },
-    { label: 'Node.js / Express',             level: 76 },
-    { label: 'Google Cloud / Maps API',       level: 72 },
+    { label: 'C++ / Systems Design', level: 92 },
+    { label: 'Multithreading & Concurrency', level: 86 },
+    { label: 'GDB/ Debugging', level: 87 },
+    { label: 'Python/ Backend', level: 72 },
+    { label: 'React / Frontend', level: 76 },
 ];
 
 const values = [
     {
         icon: Zap,
         label: 'Performance',
-        desc:  'Zero-compromise speed from kernel to UI.',
+        desc: 'Zero-compromise speed from kernel to UI.',
     },
     {
         icon: Shield,
         label: 'Reliability',
-        desc:  'Systems engineered to stay up under real load.',
+        desc: 'Systems engineered to stay up under real load.',
     },
     {
         icon: Sparkles,
         label: 'Clarity',
-        desc:  'Clean code that the whole team can own and extend.',
+        desc: 'Clean code that the whole team can own and extend.',
     },
 ];
 
 const timeline = [
     {
-        role:    'Software Engineer — SDE-II',
+        role: 'Software Engineer — SDE-II',
         company: 'Jaguar Land Rover',
-        period:  '2023 – Present',
+        period: '2023 – Present',
         outcome: 'Leading multithreaded C++ navigation systems for next-generation connected vehicles; driving performance and concurrency standards across the platform.',
     },
     {
-        role:    'Software Engineer — SDE-I',
+        role: 'Software Engineer — SDE-I',
         company: 'Jaguar Land Rover',
-        period:  '2022 – 2023',
+        period: '2022 – 2023',
         outcome: 'Built real-time map data pipelines and front-end tooling across the connected car platform, improving data accuracy and delivery speed.',
     },
 ];

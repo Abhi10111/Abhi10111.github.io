@@ -1,6 +1,7 @@
 import AmbientBG from './AmbientBG';
 import Profile from './Profile';
 import About from './About';
+import Projects from './Projects';
 
 export default function App() {
   return (
@@ -8,6 +9,7 @@ export default function App() {
       <AmbientBG />
       <Profile />
       <About />
+      <Projects />
     </>
   );
 }
